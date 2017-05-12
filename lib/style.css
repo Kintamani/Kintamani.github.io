@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Cutive+Mono');
+html body{
+  margin: 0;
+  padding: 0;
+}
+h1, h2, h3{
+  text-shadow: -0.06em 0 red,  0.06em 0 cyan;
+}
+/* pertama */
+.jumbotron{
+  height: 100vh;
+  width: 100%;
+  margin: auto;
+  background: url(https://static.pexels.com/photos/28026/pexels-photo-28026.jpg) no-repeat fixed center;
+  background-size: cover;
+}
+
+.scene {
+  padding: 0;
+  margin: 0;
+  width: 30%;
+  height: 50vh;
+  overflow: hidden;
+  top: -5%;
+  left: 38%;
+  opacity: 0.5;
+}
+li img{
+  padding: auto;
+}
+
+
+@media (max-width:1200px) and (min-width:920px) {
+  .scene{
+      padding: 0;
+      margin: 0;
+      width: 30%;
+      height: 50vh;
+      overflow: hidden;
+      top: -5%;
+      left: 34%;
+  }
+}
+ @media (max-width:920px) and (min-width:720px) {
+  .scene{
+    width: 50%;
+    height: 50vh;
+    left: 30%;
+  }
+}
+ @media (max-width:720px){
+  .scene{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 80vh;
+    left:5%;
+  }
+
+}
+
+/* kedua */
+
+.kedua{
+  font-family: 'Cutive Mono', monospace;
+  margin: 50px 30px;
+}
+.col-md-4 .img-responsive {
+    margin: 0 auto;
+}
+#logo{
+  padding: 50% 0;
+}
+/* Parallax */
+.parallax{
+  height: 56vh;
+  width: 100%;
+  background: url(https://static.pexels.com/photos/27193/pexels-photo-27193.jpg) no-repeat fixed center;
+}
+ #para1 h1{
+
+  text-align: center;
+  padding-top: 150px;
+  height: 320px;
+}
+/* footer */
+footer{
+  font-family: 'Cutive Mono', monospace;
+  margin: 30px 30px;
+}
+
+.col-md-8{
+  margin-top: 30px;
+}
+button,
+button:active,
+button:focus, 
+button:hover,
+.btn,
+.btn:active, 
+.btn:focus, 
+.btn:hover{   
+    outline:none !important;
+}
